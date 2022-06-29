@@ -1,0 +1,250 @@
+body{
+    font-family: Roboto,Helvetica Neue,Arial;
+}
+.heder-first-section{
+    position: fixed;
+    width: 100%;
+    height: 7 rem;
+    background-color: black;
+    z-index: 10;
+    
+}
+.header-logo{
+    margin-left: -1em;
+    margin-right: 1rem;
+    width: 3.9rem;
+} 
+.header-section-2{
+    display: flex;
+    position: absolute;
+    right: 15em;
+}
+.container1{
+    margin-left: 4em;
+}
+.herder-icon1{
+    position: absolute;
+    top: 1em;
+    right: 5.5em;
+    color: gray;
+    font-size: 1.7em;
+
+}
+.herder-icon2{
+    position: absolute;
+    top: 1em;
+    right: 3.5em;
+    color: gray;
+    font-size: 1.7em;
+
+}
+.herder-icon3{
+    position: absolute;
+    top: .5em;
+    right: 1em;
+    color: gray;
+    font-size: 2.3em;
+
+}
+.section2-p{
+    position: absolute;
+    margin-top: 5em;
+    color: #fff;
+    z-index: 5;
+    
+}
+.section2-p1{
+    font-size: 6rem;
+    line-height: 2.5cm;
+    margin-top:2.78em;
+    color: #fff;
+    z-index: 5;
+    
+}
+.slide{
+    padding-top:1.5em;
+}
+.font-and-icon{
+    display: flex;
+    
+}
+.section2-p-icon{
+    
+    position: absolute;
+    left: 3em;
+    font-size: 3em;
+    margin-top: 10em;
+    color: #fff;
+    z-index: 5;
+}
+.section3-imgs{
+    width: 100%;
+}
+.models{
+    margin: 1em;
+}
+.button{
+    text-decoration: none;
+    color: gray;
+    border: .1ex solid gray;
+    padding: .9em;
+}
+.section4-p{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: start;
+}
+
+@media (max-width:1160px) {
+    
+    .header-section-2{
+
+        display: none;
+
+    }
+    
+}
+
+
+    
+.section4-p2{
+    line-height: 1em;
+}
+#section3-but{
+    border-radius: 0;
+    border: 1px gray solid;
+    color: black;
+   width: 10em;
+   height: 3em;
+}
+.last-section-1-img{
+    width: 40em;
+    height: 15em;
+}
+.last-section-img2-but{
+    margin-bottom: .5em;
+    padding: 0;
+    height: 1.5em;
+    width: 6em;
+    border-radius: 0;
+    border: 0;
+}
+.last-but{
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    border-radius: 0;
+    width: 13em;
+    height: 3.5em;
+    margin-bottom: 10em;
+    margin-top: 6em;
+
+}
+.last-but:hover{
+    background-color: #fff;
+    color: black;
+}
+.footer-section{
+    background-color: black;
+}
+.logos{
+    position: relative;
+    right: 0;
+   
+}
+.footer-fixed{
+    background-color: black;
+}
+.last-section-footer-p{
+    padding-bottom: 7em;
+}
+
+@media (max-width:920px) {
+
+    .section2-p{
+
+        font-size:2ex;
+
+    }
+    .section2-p1{
+
+        font-size:5ex;
+        line-height: 1em;
+
+    }
+    .font-and-icon{
+        margin-top: -10px;
+    }
+    .section2-p-icon{
+        margin-top: 6em;
+        margin-left: .5em;
+        font-size: 2em;
+    }
+    .section4-p{
+        font-size:em;
+    }
+    .header-logo{
+        margin-left: -2.5em;
+        width: 3.9rem;
+    }
+    .herder-icon1{
+        position: absolute;
+        top: .9em;
+        right: 4.5em;
+        color: gray;
+        font-size: 1.3em;
+    
+    }
+    .herder-icon2{
+        position: absolute;
+        top: .9em;
+        right: 3em;
+        color: gray;
+        font-size: 1.2em;
+    
+    }
+    .herder-icon3{
+        position: absolute;
+        top: .5em;
+        right: 1em;
+        color: gray;
+        font-size: 1.5em;
+    
+    }
+    #section3-but{
+        display: none;
+    }
+    #section-news-p{
+        display: none;
+    }
+    .section-news-date{
+        margin: 0;
+        font-size: .9em;
+
+    }
+    .last-section-p{
+        font-size: 4vw;
+    }
+   .last-section-img2-but{
+    display: none;
+   }
+   .last-but{
+    width: 20em;
+    height: 4em;
+    margin: 0;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    }
+    .logos{
+        padding-top: 3em;
+       
+    }
+
+
+
+}
